@@ -1,0 +1,75 @@
+/*
+All the stuff in here is strictly for the initial view when the page loads.
+*/
+
+.splash-page-title{
+  display: block;
+  position: relative;
+  margin: 0;
+}
+.splash-page-title div section h3{margin-top: 70px;color: #eee;}
+.splash-page-title div section h3 strong{color: red;}
+body{
+
+}
+
+
+#splash-page-body{}
+#splash-page-title-1{
+  color: #f00;
+  font-family: 'proxima nova black';
+  font-size: 5em;
+  opacity: 0;
+  float: left;
+  display: flex;
+}
+#splash-page-title-2{
+  color: #d00;
+  font-family: 'proxima nova light';
+  font-size: 4em;
+  opacity: 0;
+  float: left;
+  display: flex;
+  margin-top: -4em;
+}
+#splash-page-horizontal-rule{
+  height: 1.5px;
+  background: #eee;
+  display: block;
+  margin-left: 0;
+  margin-top: -8em;
+}
+#splash-page-button-enter{
+  background: red;
+  margin-left: 1%;
+  width: 20%;
+  margin-top: -9em;
+  min-width: 300px;
+}
+.color-bar-filler{}
+.color-bar-content{
+  height: 1000px;
+  margin:0;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+#color-bar-1{background: #999;}
+#color-bar-2{background: #900;}
+#color-bar-3{background: #900;}
+#color-bar-4{background: #666;}
+
+
+@media (min-width:370px){
+  #splash-page-title-1{font-size: 6em; clear: both;}
+  #splash-page-title-2{font-size: 5em; clear: both;}
+  #splash-page-horizontal-rule{margin-top: ; background: #bbb;}
+  .splash-page-title div section h2{clear: both;}
+}
+@media(min-width:420px){
+  #splash-page-title-2{margin-top: -200px; color: red;}
+}
+@media (min-width: 768px){
+  #splash-page-title-1{font-size: 15em; clear: none;}
+  #splash-page-title-2{font-size: 12em; margin-top: -2em; clear: none;}
+  .splash-page-title div section h2{clear: both;}
+}

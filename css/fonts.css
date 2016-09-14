@@ -1,0 +1,27 @@
+/*
+FONTS!
+*/
+@font-face{
+  font-family: 'proxima nova light';
+  src: url(fonts/proximanova-light-webfont.eot);
+  src: url(fonts/proximanova-light-webfont.eot?#iefix) format('embedded-opentype'), url(fonts/proximanova-light-webfont.woff2) format('woff2'), url(fonts/proximanova-light-webfont.woff) format('woff'), url(fonts/proximanova-light-webfont.tff) format('truetype'), url(fonts/proximanova-light-webfont.svg) format('svg');
+}
+.pnL{
+  font-family: 'proxima nova light';
+}
+@font-face{
+  font-family: 'proxima nova black';
+  src: url(fonts/proximanova-black-webfont.eot);
+  src: url(fonts/proximanova-black-webfont.eot?#iefix) format('embedded-opentype'), url(fonts/proximanova-black-webfont.woff2) format('woff2'), url(fonts/proximanova-black-webfont.woff) format('woff'), url(fonts/proximanova-black-webfont.tff) format('truetype'), url(fonts/proximanova-black-webfont.svg) format('svg');
+}
+.pnB{
+  font-family: 'proxima nova black';
+}
+@font-face{
+  font-family: 'proxima nova cont light';
+  src: url(fonts/proximanovacond-light-webfont.eot);
+  src: url(fonts/proximanovacond-light-webfont.eot?#iefix) format('embedded-opentype'), url(fonts/proximanovacond-light-webfont.woff2) format('woff2'), url(fonts/proximanovacond-light-webfont.woff) format('woff'), url(fonts/proximanovacond-light-webfont.tff) format('truetype'), url(fonts/proximanovacond-light-webfont.svg) format('svg');
+}
+.pnC{
+  font-family: 'proxima nova cont light';
+}

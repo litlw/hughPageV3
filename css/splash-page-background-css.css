@@ -1,0 +1,131 @@
+/*
+This document sort of covers the background changing. Fun stuff!
+*/
+#splash-page-body {
+}
+
+.splash-page-bg .splash-page-bg:after .sp{
+  width: 12em;
+  height: 12em;
+  padding: 1em;
+}
+.splash-page-bg>span{
+    -webkit-animation: splash-page-bg-animation 36s linear infinite 0s;
+    -moz-animation: splash-page-bg-animation 36s linear infinite 0s;
+    -o-animation: splash-page-bg-animation 36s linear infinite 0s;
+    -ms-animation: splash-page-bg-animation 36s linear infinite 0s;
+    animation: splash-page-bg-animation 36s linear infinite 0s;
+    height: 100%;
+    width: 100%;;
+    position: absolute;
+    display: block;
+    opacity: 0;
+    top: 0px;
+    left: 0px;
+    background-position: center;
+    background-attachment:fixed;
+}
+#splash-page-bg-1{
+  background-image: url("../img/MACHINE1.1.jpg");
+
+}
+#splash-page-bg-2{  background-image: url("../img/MACHINE2.jpg");
+  -webkit-animation-delay: 6s;
+   -moz-animation-delay: 6s;
+   -o-animation-delay: 6s;
+   -ms-animation-delay: 6s;
+   animation-delay: 6s;
+}
+#splash-page-bg-3{  background-image: url("../img/MACHINE3.jpg");
+  -webkit-animation-delay: 12s;
+   -moz-animation-delay: 12s;
+   -o-animation-delay: 12s;
+   -ms-animation-delay: 12s;
+   animation-delay: 12s;
+}
+#splash-page-bg-4{  background-image: url("../img/MACHINE4.jpg");
+  -webkit-animation-delay: 24s;
+   -moz-animation-delay: 24s;
+   -o-animation-delay: 24s;
+   -ms-animation-delay: 24s;
+   animation-delay: 24s;
+}
+#splash-page-bg-5{  background-image: url("../img/MACHINE5.jpg");
+  -webkit-animation-delay: 30s;
+   -moz-animation-delay: 30s;
+   -o-animation-delay: 30s;
+   -ms-animation-delay: 30s;
+   animation-delay: 30s;
+}
+#splash-page-bg-6{  background-image: url("../img/MACHINE6.jpg");
+  -webkit-animation-delay: 36s;
+   -moz-animation-delay: 36s;
+   -o-animation-delay: 36s;
+   -ms-animation-delay: 36s;
+   animation-delay: 36s;
+}
+#splash-page-bg-7{  background-image: url("../img/MACHINE7.jpg");
+  -webkit-animation-delay: 42s;
+   -moz-animation-delay: 42s;
+   -o-animation-delay: 42s;
+   -ms-animation-delay: 42s;
+   animation-delay: 42s;
+}
+#splash-page-bg-8{
+  background: url("../img/bg1.png");
+  opacity: 1;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: block;
+  top: 0px;
+  left: 0px;
+  background-position: center;
+  background-attachment:fixed;
+}
+
+  @-webkit-keyframes splash-page-bg-animation {
+    0% { opacity: 0;
+    -webkit-animation-timing-function: ease-in; }
+    8% { opacity: 1;
+         -webkit-animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+@-moz-keyframes splash-page-bg-animation {
+    0% { opacity: 0;
+    -moz-animation-timing-function: ease-in; }
+    8% { opacity: 1;
+         -moz-animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+@-o-keyframes splash-page-bg-animation {
+    0% { opacity: 0;
+    -o-animation-timing-function: ease-in; }
+    8% { opacity: 1;
+         -o-animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+@-ms-keyframes splash-page-bg-animation {
+    0% { opacity: 0;
+    -ms-animation-timing-function: ease-in; }
+    8% { opacity: 1;
+         -ms-animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+@keyframes splash-page-bg-animation {
+    0% { opacity: 0;
+    animation-timing-function: ease-in; }
+    8% { opacity: 1;
+         animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}

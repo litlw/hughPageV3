@@ -1,0 +1,31 @@
+{
+  "name": "hughPageV3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/litlw/hughPageV3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/litlw/hughPageV3/issues"
+  },
+  "homepage": "https://github.com/litlw/hughPageV3#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "bower": "^1.7.9",
+    "grunt": "^1.0.1",
+    "node-gyp": "^3.4.0",
+    "rebuild": "^0.1.2",
+    "slick-carousel": "^1.6.0"
+  },
+  "devDependencies": {
+    "gulp-connect": "^5.0.0"
+  }
+}
